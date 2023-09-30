@@ -12,16 +12,20 @@ int main(int argc, char const *argv[])
     switch (opcao)
     {
     case 1:
-        printf("somar");
+        printf("somar\n");
+        printf("A soma de %i e %i = %i", n1, n2, n1 + n2);
         break;
     case 2:
-        printf("subtrair 2");
+        printf("subtrair\n");
+        printf("A subtracao de %i e %i = %i", n1, n2, n1 - n2);
         break;
     case 3:
-        printf("multiplicar 3");
+        printf("multiplicar\n");
+        printf("A multiplicacao de %i e %i = %i", n1, n2, n1 * n2);
         break;
     case 4:
-        printf("dividir 4");
+        printf("dividir\n");
+        printf("A divisao de %i e %i = %i", n1, n2, n1 / n2);
         break;
 
     default:
