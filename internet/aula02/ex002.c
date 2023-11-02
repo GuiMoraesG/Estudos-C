@@ -5,10 +5,10 @@ int main(int argc, char const *argv[])
 {
     int num1, num2, soma, subt, mult, div;
 
-    printf("Digite o primeiro numero: \n", num1);
+    printf("Digite o primeiro numero: \n");
     scanf("%i", &num1);
 
-    printf("Digite o segundo numero: \n", num2);
+    printf("Digite o segundo numero: \n");
     scanf("%i", &num2);
 
     soma = num1 + num2;
